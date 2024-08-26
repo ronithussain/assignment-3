@@ -209,7 +209,7 @@
 
 
     <!-- our-latest-section -->
-     <section class="py-24">
+     <!-- <section class="py-24">
       <div class="text-center">
         <div class="flex justify-center mb-5">
           <button class="bg-[#bff087] flex items-center gap-2 rounded-full px-5 text-sm py-2 "><i class="fa-solid fa-arrow-right-long"></i>Explore our Latest works  
@@ -218,40 +218,45 @@
         <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[#212121] mb-6">Our Works Process</h2>
         <p class="text-[#494949] md:w-[70%] lg:w-[40%] mx-auto mb-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
       </div>
-     </section>
+     </section> -->
 
     <!-- input-Discuss-section -->
-     <section class="py-24 border-2 border-red-500bg-cover bg-center h-screen" 
+     <section class="lg:py-24 md:py-20 py-14 sm:px-0 px-4  " 
      style="background-image: url('assets/bg.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;">
-      <div class="container mx-auto">
+      <div class="container mx-auto lg:px-24 md:px-8">
         <div class="text-center">
           <div class="flex justify-center mb-5">
             <button class="bg-[#bff087] flex items-center gap-2 rounded-full px-5 text-sm py-2 "><i class="fa-solid fa-arrow-right-long"></i>Let’s Connect  
             </button>
           </div>
           <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[#212121] mb-6">Let’s Discuss Next Project</h2>
-          <p class="text-[#494949] md:w-[70%] lg:w-[40%] mx-auto mb-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <p class="text-[#494949] md:w-[100%] lg:w-[50%] mx-auto mb-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
   
   
         <!-- ___________Input-section____________ -->
-        <form>
-          <div>
-            <input placeholder="First Name" type="text" name="" id="">
+        <form class=" flex gap-5 flex-wrap p- mt-14">
+          <div class="sm:w-[48%] w-full mb-2   ">
+            <input class="w-full  h-[50px] outline-none rounded-full px-7 py-8" placeholder="First Name" type="text" name="" id="" required> 
           </div>
-          <div>
-            <input placeholder="Last Name" type="text" name="" id="">
+          <div class="sm:w-[48%] w-full mb-2    ">
+            <input class=" w-full h-[50px] outline-none rounded-full px-7 py-8" placeholder="Last Name" type="text" name="" id="" required>
           </div>
-          <div>
-            <input placeholder="Phone Number" type="number" name="" id="">
+          <div class="sm:w-[48%] w-full mb-2    ">
+            <input class="w-full h-[50px] outline-none rounded-full px-7 py-8" placeholder="Phone Number" type="number" name="" id="" required>
           </div>
-          <div>
-            <input placeholder="Email Number" type="email" name="" id="">
+          <div class="sm:w-[48%] w-full mb-2    ">
+            <input class="w-full h-[50px] outline-none rounded-full px-7 py-8" placeholder="Email Number" type="email" name="" id="" required>
           </div>
-          <div>
-            <textarea placeholder="Write your message here" name="" id=""></textarea>
+          <div class="lg:w-[97%] md:w-[99%] w-full  ">
+            <textarea class="w-full h-[200px] lg:h-[300px] px-7 py-5 outline-none rounded-2xl" placeholder="Write your message here" name="" id="" rows="5" cols="4"></textarea>
           </div>
         </form>
+        <!-- input-button -->
+          <button class="btn my-5 w-full md:w-[99%] lg:w-[97%]  bg-primary rounded-full ">Send Mail 
+            <i class="fa-solid fa-arrow-right-long -rotate-45 bg-black p-1 text-secondary rounded-full"></i>
+          </button>
+
       </div>
      </section>
   </main>
